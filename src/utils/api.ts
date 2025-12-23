@@ -1,5 +1,5 @@
 const API_BASE_URL: string =
-    import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000";
+    import.meta.env.VITE_API_BASE_URL ?? "https://api-sbox.vercel.app";
 
 export const apiEndpoints = {
     status: `${API_BASE_URL}/status`,
